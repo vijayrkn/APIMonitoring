@@ -5,9 +5,9 @@ using Microsoft.Extensions.Logging;
 
 namespace APITrigger
 {
-    public class Function1
+    public class APITimerTrigger
     {
-        [FunctionName("Function1")]
+        [FunctionName("APITimerTrigger")]
         public void Run([TimerTrigger("* * * * * *")]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
