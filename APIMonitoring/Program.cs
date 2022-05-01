@@ -13,10 +13,10 @@ app.UseHttpsRedirection();
 
 app.MapGet("/Customer", async () =>
 {
-    int latency = new Random().Next(1000);
-    await Task.Delay(latency);
+    int delay = new Random().Next(1000);
+    await Task.Delay(delay);
 
-    if (latency > 750)
+    if (delay > 750)
     {
         return Results.Problem();
     }
