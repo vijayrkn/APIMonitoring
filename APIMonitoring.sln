@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32427.441
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIMonitoring", "APIMonitoring\APIMonitoring.csproj", "{C1F2A925-EF88-4AF4-BECD-A6F251F73643}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APITrigger", "APITrigger\APITrigger.csproj", "{79394518-3F3B-43CD-91FC-C9C5A47EC63D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1F2A925-EF88-4AF4-BECD-A6F251F73643}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1F2A925-EF88-4AF4-BECD-A6F251F73643}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1F2A925-EF88-4AF4-BECD-A6F251F73643}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1F2A925-EF88-4AF4-BECD-A6F251F73643}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79394518-3F3B-43CD-91FC-C9C5A47EC63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79394518-3F3B-43CD-91FC-C9C5A47EC63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79394518-3F3B-43CD-91FC-C9C5A47EC63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79394518-3F3B-43CD-91FC-C9C5A47EC63D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59600894-DC58-4BB7-941F-25A91459C1CF}
+	EndGlobalSection
+EndGlobal
