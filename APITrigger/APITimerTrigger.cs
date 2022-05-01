@@ -8,7 +8,7 @@ namespace APITrigger
     public class APITimerTrigger
     {
         [FunctionName("APITimerTrigger")]
-        public void Run([TimerTrigger("* * * * * *")]TimerInfo myTimer, ILogger log)
+        public void Run([TimerTrigger("*/3 * * * * *")]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
         }
